@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0.14rem;
+    text-decoration: none;
+}
+
+html,
+body,
+#root,
+.App {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.home .head {
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+}
+
+.home .foot {
+    width: 100%;
+    height: .55rem;
+    display: flex;
+    background: #f5f5f6;
+}
+
+.home .foot li {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home .foot li a,
+.home .foot li {
+    color: #000;
+}
+
+.home .foot li p i {
+    font-size: 0.22rem
+}
+
+.home .foot li a.active {
+    color: red;
+}
+
+.home .foot li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .foot li a p:nth-of-type(1) {
+    height: .30rem;
+    font-size: 0.18rem;
+    line-height: .30rem;
+}
+
+.home .foot li a p:nth-of-type(2) {
+    height: .25rem;
+    line-height: .25rem;
+}
+
+header {
+    width: 100%;
+    height: .44rem;
+    line-height: .44rem;
+    font-weight: bold;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+header {
+    display: flex;
+}
+
+header .header_box,
+header span:nth-of-type(2) {
+    width: 20%;
+    color: #017aff;
+}
+
+header span:nth-of-type(1) {
+    width: 60%;
+}
+
+
+/* 宝宝听里面儿歌和故事样式 */
+
+.listenbaby {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qie {
+    width: 30%;
+    height: .3rem;
+    margin-left: 35%;
+    display: flex;
+    border: 1px solid red;
+    border-radius: .06rem;
+    overflow: hidden;
+}
+
+.qie>a {
+    flex: 1;
+    text-align: center;
+    line-height: .3rem;
+    text-decoration: none;
+    color: red;
+}
+
+.qie>a.active {
+    color: #fff;
+    background-color: red;
+}
+
+.sec {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.song {
+    width: 100%;
+    height: 100%;
+}
+
+.song_ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: -.5rem;
+}
+
+.song_ul>ol {
+    width: 100%;
+    display: flex;
+}
+
+.song_ul>ol>h3 {
+    margin-left: 3%;
+    line-height: .5rem;
+    color: rgb(181, 106, 147);
+}
+
+.nei {
+    width: 80%;
+    padding: .1rem 0;
+    margin-left: 3%;
+}
+
+.rong {
+    padding-top: .1rem;
+}
+
+.rong>span {
+    color: rgb(138, 94, 99);
+}
+
+.bo {
+    margin-left: 2%;
+}
+
+.ul_li {
+    background: rgb(255, 192, 203);
+}
+
+
+/* my样式 */
+
+.my_home {
+    width: 100%;
+    height: 100%;
+    background: #efeff4;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_my {
+    flex: 1;
+    overflow: auto;
+}
+
+.main_top {
+    height: .80rem;
+    background: #fff;
+    line-height: .40rem;
+    font-weight: bold;
+    margin-top: .30rem;
+}
+
+.main_top li {
+    height: .40rem;
+    line-height: .40rem;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+}
+
+.lefts {
+    position: absolute;
+    left: 10px;
+}
+
+.spans {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.main_center {
+    height: .80rem;
+    background: #fff;
+    line-height: .40rem;
+    font-weight: bold;
+    margin-top: .30rem;
+}
+
+.main_center li {
+    height: .40rem;
+    line-height: .40rem;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+}
+
+.lefts_center {
+    position: absolute;
+    left: 10px;
+}
+
+.main_bottom {
+    height: .55rem;
+    background: #fff;
+    margin-top: .30rem;
+    text-align: center;
+    line-height: .55rem;
+}
+
+.btn {
+    width: 90%;
+    height: 70%;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* Storydetails页面 */
+
+
+/* .main_detail{
+  flex: 1;
+  overflow: auto;
+}
+.bigBox{
+  height: .50rem;
+  display: flex;
+}
+.bigBox_left{
+  flex:2;
+  text-align: center;
+  line-height: .50rem;
+}
+.bigBox_center{
+  flex: 7;
+  line-height: .25rem;
+}
+.bigBox_center span{
+  font-size: 10px;
+}
+.bigBox_right{
+  flex:1;
+  text-align: center;
+  line-height: .50rem;
+} */

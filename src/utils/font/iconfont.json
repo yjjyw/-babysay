@@ -1,0 +1,23 @@
+{
+  "id": "1510045",
+  "name": "aa",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "716048",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "11748357",
+      "name": "电视机",
+      "font_class": "dianshiji",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}
